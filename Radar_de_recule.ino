@@ -4,12 +4,12 @@
 #define yellow 11
 #define red 10
 
-#define echo 7
 #define trig 8
+#define echo 7
 
 #define buzz 5
 
-NewPing ultrasons(8, 7, 200);
+NewPing ultrasons(trig, echo, 200);
 
 void setup() {
   // put your setup code here, to run once:
